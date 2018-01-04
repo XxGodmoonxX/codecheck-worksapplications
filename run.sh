@@ -6,7 +6,7 @@ ROOT=$(cd $(dirname $0) && pwd)
 # java -jar $(ls $ROOT/java/target/ce-exam-*-jar-with-dependencies.jar) "$@"
 
 ### Scala ###
-# java -jar $(ls $ROOT/scala/target/ce-exam-*-jar-with-dependencies.jar) "$@"
+java -jar $(ls $ROOT/scala/target/ce-exam-*-jar-with-dependencies.jar) "$@"
 
 ### Python ###
 # python $ROOT/python/src/main.pyc "$@"

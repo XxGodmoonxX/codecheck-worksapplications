@@ -3,8 +3,8 @@
 ROOT=$(cd $(dirname $0) && pwd)
 
 ### Java ###
-# cd $ROOT/java/
-# mvn package -Dmaven.test.skip=true
+cd $ROOT/java/
+mvn package -Dmaven.test.skip=true
 
 ### Scala ###
 # cd $ROOT/scala/
@@ -15,5 +15,5 @@ ROOT=$(cd $(dirname $0) && pwd)
 # python -m compileall .
 
 ### C++ ###
-cd $ROOT/c++
-c++ -o app.o src/*.cpp
+# cd $ROOT/c++
+# c++ -o app.o src/*.cpp
